@@ -1,6 +1,6 @@
 ﻿namespace E_book2.Models
 {
-    public class OrderItem
+    public class OrderItem : IEntity
     {
         public int Id { get; set; }
         public int Quantity { get; set; }

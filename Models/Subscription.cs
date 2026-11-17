@@ -1,6 +1,6 @@
 ﻿namespace E_book2.Models
 {
-    public class Subscription
+    public class Subscription : IEntity
     {
         public int Id { get; set; }
         public DateTime StartDate { get; set; }
