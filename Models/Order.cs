@@ -1,6 +1,6 @@
 ﻿namespace E_book2.Models
 {
-    public class Order
+    public class Order : IEntity
     {
         public int Id { get; set; }
         public DateTime OrderDate { get; set; } = DateTime.UtcNow;

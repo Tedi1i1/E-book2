@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc.ViewEngines;
 using System.Data;
+ 
 
 namespace E_book2.Models
 {
-    public class User
+    public class User : IEntity
     {
         public int Id { get; set; }
         public string FirstName { get; set; } = string.Empty;
